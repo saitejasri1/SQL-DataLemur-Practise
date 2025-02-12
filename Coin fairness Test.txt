@@ -1,0 +1,10 @@
+/* 
+Say you flip a coin 10 times and observe only one heads. What would be your null hypothesis and p-value for testing whether the coin is fair or not?
+
+*/
+
+
+-- ** Solution **
+The null hypothesis states that the coin is fair, while the alternative hypothesis suggests that the coin is biased.
+
+Ho: p0 =0.5 Ha: p0 <0.5 The p-value represents the probability of obtaining the observed result, assuming the null hypothesis is true. For 10 flips of a coin, there are 2^10 possible outcomes, and only 10 of these result in 9 tails and 1 head. P-value = 10/2^10 = 0.0098. Since the p-value is 0.0098, which is less than the 0.05 significance level, we reject the null hypothesis. This suggests that the coin is biased.
